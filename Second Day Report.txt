@@ -1,0 +1,9 @@
+
+
+
+This document describes a basic single-page hotel website template that includes three major sections:
+
+
+	*   Navigation Bar (Navbar)
+	*   Hero Section
+	*   About Section

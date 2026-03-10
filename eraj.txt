@@ -1,0 +1,6 @@
+31/12/2025
+Name: Mohd Eraj Ansari
+
+
+Today, I designed the Home page with key sections including Home, Menu, About, and Contact.
+I also structured the navigation menu to improve layout clarity and user experience.

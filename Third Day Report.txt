@@ -1,0 +1,6 @@
+
+Hotel Template/Clone
+
+The Mount Inn website is a modern, responsive presentation of a 24-year-old luxury hotel,
+featuring clear navigation, engaging summer promotions, and a comprehensively detailed
+amenities gallery, making the initial build almost complete.

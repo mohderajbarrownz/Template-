@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style1.css">
+    <script src="./Script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+</head>
+
+<body class="bg-gray-950 text-white">
+
+    <section class="flex justify-center nav-image  ">
+        <div class="container ">
+            <nav class="text-white">
+                <div class="container m-auto px-4 py-5 ">
+                    <div class="flex justify-between items-center">
+                        <div class=" text-xl font-bold">
+                            <img class="img-fluid" src="./Image/logo-001.svg" alt="Logo Image">
+                        </div>
+                        <ul class="hidden md:flex space-x-6 ">
+                            <li><a href="#" class="hover:text-gray-200">Home</a></li>
+                            <li><a href="#" class="hover:text-gray-200">About</a></li>
+                            <li><a href="#" class="hover:text-gray-200">Services</a></li>
+                            <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+
+
+                        </ul>
+                        <button
+                            class="hidden md:flex px-12 text-xl font-semibold py-3 bg-green-600 uppercase rounded-lg">Book
+                            Now</button>
+                        <button id="menuBtn" class="md:hidden  text-2xl">
+                            ☰
+                        </button>
+
+                    </div>
+                </div>
+
+                <div id="mobileMenu" class="hidden md:hidden bg-blue-700">
+                    <ul class="flex flex-col px-4 py-2 space-y-2">
+
+                        <li><a href="#" class="block hover:bg-blue-600 px-2 py-1 ">Home</a></li>
+                        <li><a href="#" class="block hover:bg-blue-600 px-2 py-1 ">About</a></li>
+                        <li><a href="#" class="block hover:bg-blue-600 px-2 py-1 ">Services</a></li>
+                        <li><a href="#" class="block hover:bg-blue-600 px-2 py-1 ">Contact</a></li>
+                        <li>
+                            <button class="block rounded-lg px-5 py-3 bg-green-600 ">Click me</button>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="container">
+                <div class="grid grid-cols-12 py-12">
+
+                    <h4 class="col-span-12 uppercase tracking-[1.5px] text-white font-bold">
+                        Welcome to Dr. Smith's Dental Care
+                    </h4>
+
+                    <h1 class="col-span-8 text-[65px] font-bold leading-tight">
+                        Dr. Smith's Dental Care – Where Your Smile Takes Center Stage!
+                    </h1>
+
+                    <p class="col-span-5 py-8 text-lg text-white tracking-[1px] font-bold">
+                        Experience personalized and compassionate dental care with Dr. Smith and our dedicated team!
+                    </p>
+
+                    <div class="col-span-12">
+                        <button
+                            class="px-10 rounded-lg py-3 bg-transparent border hover:bg-blue-600 hover:text-white hover:border-blue-600 transition">
+                            Book Consultation
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="w-full relative">
+        <div class="grid grid-cols-2 ">
+            <div class="bg-[#02050d] py-[10rem]">
+
+            </div>
+            <div class="bg-white py-[13.5rem] text-black p-6">
+
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2  absolute top-0 start-0 w-full h-full ">
+            <div class=" ps-10 ">
+                <div class="shadow-2xl rounded-lg bg-white text-black py-12 ">
+                    <div class="px-10 py-3">
+                        <h5 class="uppercase text-green-600 font-bold tracking-[1.5px]">About</h5>
+                        <h1 class="text-5xl font-bold py-12">Dr. Smith, a distinguished dentist...</h1>
+                        <p class="pb-3">Dr. Smith completed her dental education with honors, specializing in specific
+                            areas of
+                            focus. Her dedication to staying updated with the latest in dentistry ensures that you
+                            receive the highest standard of care. Beyond technical proficiency, Dr. Smith’s warm and
+                            approachable demeanor establishes a welcoming atmosphere, making each visit a positive and
+                            personalized experience.
+                        </p>
+                        <div class="pt-[9.3rem]">
+                            <button
+                                class="px-4 py-2 transition-all duration-700 ease-in-out bg-transparent border hover:bg-green-600 hover:text-black text-green-500 rounded-lg mt-4">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="mt-[-150px]">
+                    <img class="roundd-lg rounded-lg shadow-2xl" src="./Image/about-0001.jpg" alt="Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-[10rem] bg-white">
+        <div class=" container">
+            <div class="grid grid-cols-2">
+                <div class=" p-4 ">
+
+                </div>
+                <div class="" style="margin-top: -150px; z-index: 2;">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
